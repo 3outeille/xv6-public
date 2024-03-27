@@ -1,3 +1,12 @@
+# Installation
+
+- Install cross-compiler here: https://stackoverflow.com/a/45642910
+- Need to run this in a docker container (as it needed ubuntu 14) => https://blog.csdn.net/hfcaoguilin/article/details/134326064
+- `make && make qemu-nox`(can't run graphical stuff through docker so run this version)
+-  Courses and exercies: https://pdos.csail.mit.edu/6.828/2018/xv6/book-rev11.pdf
+
+# Original note
+
 NOTE: we have stopped maintaining the x86 version of xv6, and switched
 our efforts to the RISC-V version
 (https://github.com/mit-pdos/xv6-riscv.git)
